@@ -13,7 +13,7 @@ exports.shortenUrl = async (req, res) => {
 
   await url.save();
 
-  res.json({ shortUrl: `${req.headers.host}/${shortId}` });
+  return res.json({ shortUrl: `${req.headers.host}/${shortId}` });
 };
 
 exports.redirectUrl = async (req, res) => {
