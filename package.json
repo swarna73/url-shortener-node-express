@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener-node-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarna73/url-shortener-node-express.git"
+  },
+  "keywords": [],
+  "author": "Swarnalatha Swaminathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarna73/url-shortener-node-express/issues"
+  },
+  "homepage": "https://github.com/swarna73/url-shortener-node-express#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "shortid": "^2.2.17"
+  }
+}
